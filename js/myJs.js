@@ -1,17 +1,17 @@
 const textConfig = {
-  text1: "He luu cậu!",
-  text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Cậu yêu tớ có phải không nào ._.",
-  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
-  text5: "Cậu mơ à???",
-  text6: "Yêu ơi là yêu <3",
-  text7: "lí do cậu thích tớ đi :vvvv",
-  text8: "Gửi cho tớ <3",
-  text9: "Vì cậu đẹp try vlllll",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text1: "alooooooooooo",
+  text2: "Trở lại rồi đây",
+  text3: "Hết giận 100% chưa thế?",
+  text4: "Không trả lời mà thoát ra tức là hết 100% rồi đó nha",
+  text5: "Điên à, còn giận kinh khủng nhưng chán chả buồn nói thôi",
+  text6: "hết giận rồi mà, nên yên tâm đi",
+  text7: "chắc chưa? còn xíu % giận nào không?",
+  text8: "gửi tao nào",
+  text9: "không còn xíu % nào đâu mà, đừng lo nữa",
+  text10: "được rồi, tao tin mày",
   text11:
-    "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
-  text12: "Okii lunn <3",
+    "xong rồi, hết giận rồi thì nhắn tao đi",
+  text12: "tao biết rồi mà",
 };
 
 $(document).ready(function () {
@@ -35,7 +35,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/cuteCat.jpg",
+      imageUrl: "https://s.memehay.com/files/posts/20210527/meo-nguoc-mat-dang-thuong-cho-doi.webp",
       imageWidth: 300,
       imageHeight: 300,
       background: '#fff url("img/iput-bg.jpg")',
@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com";
+            window.location = "https://chat.zalo.me/";
           },
         });
       }
